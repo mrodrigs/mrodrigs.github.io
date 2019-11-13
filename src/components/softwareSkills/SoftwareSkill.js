@@ -12,9 +12,9 @@ export default function SoftwareSkill() {
           <li className="software-skill-inline" name="css3">
             <i className="fab fa-css3-alt"></i>
           </li>
-          <li className="software-skill-inline" name="sass">
+          {/* <li className="software-skill-inline" name="sass">
             <i className="fab fa-sass"></i>
-          </li>
+          </li> */}
           <li className="software-skill-inline" name="JavaScript">
             <i className="fab fa-js"></i>
           </li>
@@ -24,19 +24,19 @@ export default function SoftwareSkill() {
           <li className="software-skill-inline" name="nodejs">
             <i className="fab fa-node"></i>
           </li>
-          <li className="software-skill-inline" name="swift">
+          {/* <li className="software-skill-inline" name="swift">
             <i className="fab fa-swift"></i>
-          </li>
+          </li> */}
           <li className="software-skill-inline" name="npm">
             <i className="fab fa-npm"></i>
           </li>
-          <li className="software-skill-inline" name="sql-database">
+          {/* <li className="software-skill-inline" name="sql-database">
             <i className="fas fa-database"></i>
           </li>
           <li className="software-skill-inline" name="aws">
             <i className="fab fa-aws"></i>
-          </li>
-          <li className="software-skill-inline" name="firebase">
+          </li> */}
+          {/* <li className="software-skill-inline" name="firebase">
             <i className="fas fa-fire"></i>
           </li>
           <li className="software-skill-inline" name="python">
@@ -44,7 +44,7 @@ export default function SoftwareSkill() {
           </li>
           <li className="software-skill-inline" name="docker">
             <i className="fab fa-docker"></i>
-          </li>
+          </li> */}
         </ul>
       </div>
     </div>

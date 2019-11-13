@@ -18,7 +18,7 @@ export default function Projects() {
       request: operation => {
         operation.setContext({
           headers: {
-            authorization: `Bearer ${atob("YOUR CONVERTED GITHUB TOKEN")}`
+            authorization: `Bearer ${atob("ZjYwZGZhZWI0NDEyYjY4Zjg5MWI2MjgxN2UyYWZkYmI1OWE1ZTM2MA==")}`
           }
         });
       }
@@ -28,7 +28,7 @@ export default function Projects() {
       .query({
         query: gql`
           {
-            repositoryOwner(login: "your github username") {
+            repositoryOwner(login: "mrodrigs") {
               ... on User {
                 pinnedRepositories(first: 6) {
                   edges {
@@ -72,7 +72,7 @@ export default function Projects() {
           return <GithubRepoCard repo={v} key={v.node.id} />;
         })}
       </div>
-      <Button text={"More Projects"} className="project-button" href="https://github.com/saadpasta" newTab={true} />
+      <Button text={"More Projects"} className="project-button" href="https://github.com/mrodrigs" newTab={true} />
     </div>
   );
 }
