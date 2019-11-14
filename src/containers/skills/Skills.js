@@ -14,7 +14,7 @@ export default function Skills() {
           <p className="subTitle skills-text-subtitle">My passion is to solve people's problems with technology.</p>
           <SoftwareSkill />
           <div>
-            <p className="subTitle skills-text">🌈 Develop beautiful Applications both for Web and Mobile</p>
+            <p className="subTitle skills-text">🌈 Develop beautiful Applications for Web and Mobile</p>
             <p className="subTitle skills-text">⚡ Enjoy good challenges</p>
             <p className="subTitle skills-text">💖 Love to code</p>
           </div>
